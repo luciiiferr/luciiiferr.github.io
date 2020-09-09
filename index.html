@@ -251,7 +251,7 @@ color: red}
   <div class="container">
     <h4><h2>Ankit Kumar</h2></h4> 
     <p>Web Developer | Programmer</p> 
-    <button class="btn">About Me</button>
+    <button onclick="Sound()" class="btn">About Me</button>
  <p class="ex "> 
     </p>
  <button class="btn">Skills</button>
@@ -383,6 +383,11 @@ function toggleBtn() {
       }
     }
 
+function Sound() {
+        var path = "click_mjgh_lab.mp3"
+        var snd = new Audio(path);
+        snd.play();
+    }
     </script>
     </body>
 
